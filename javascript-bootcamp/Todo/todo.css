@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+
+.container {
+
+    width: 500px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+}
+
+/* ---------------- Header ---------------- */
+
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ---------------- Input ---------------- */
+
+.input-section {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+
+.input-section input {
+
+    flex: 1;
+
+    padding: 10px;
+
+    font-size: 16px;
+}
+
+.input-section button {
+
+    padding: 10px 18px;
+
+    background: #4CAF50;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+.input-section button:hover {
+
+    background: #388E3C;
+}
+
+/* ---------------- Error ---------------- */
+
+#error {
+
+    color: crimson;
+
+    margin-bottom: 15px;
+
+    height: 20px;
+}
+
+/* ---------------- Task List ---------------- */
+
+.task-section ul {
+
+    list-style: none;
+}
+
+.task-section li {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 6px;
+
+    background: #fafafa;
+}
+
+.task-section li span {
+
+    cursor: pointer;
+
+    flex: 1;
+}
+
+.task-section li button {
+
+    margin-left: 15px;
+
+    background: crimson;
+
+    color: white;
+
+    border: none;
+
+    padding: 6px 12px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.task-section li button:hover {
+
+    background: darkred;
+}
+
+/* Completed */
+
+.completed {
+
+    text-decoration: line-through;
+
+    opacity: .6;
+}

@@ -1,0 +1,16 @@
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-style: italic;
+    color: red;
+}
+button {
+    background-color: rgb(124, 124, 155);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
