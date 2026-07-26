@@ -51,15 +51,10 @@ This project demonstrates CRUD operations, DOM manipulation, local storage, filt
 
 ### Active Filter
 
-![Active](images/filtered-active.png)
+![Active](images/active.png)
 
 ---
 
-### Completed Filter
-
-![Completed Filter](images/filtered-completed.png)
-
----
 
 ## 📂 Project Structure
 
