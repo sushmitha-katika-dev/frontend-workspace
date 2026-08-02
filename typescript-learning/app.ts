@@ -1,5 +1,5 @@
-import type{ StudentModule } from "./Student";
-import { Calculator } from "./Calculator";
+//import type{ StudentModule } from "./Student";
+//import { Calculator } from "./Calculator";
 
 // Variables & Primitive Types & Type Inference
 let message: string = "Hello Typescript";
@@ -401,15 +401,3 @@ laptop.discount(13);
 
 laptop.display();
 
-// Modules (import/export)
-
-const studentModule: StudentModule = {
-    id:1,
-    name:"Sushmitha",
-    cgpa:8.68
-};
-
-const calc = new Calculator();
-
-console.log(studentModule);
-console.log(calc.add(10,20));
