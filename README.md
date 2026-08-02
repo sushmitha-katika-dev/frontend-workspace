@@ -1,28 +1,50 @@
-# Frontend Workspace
+# Frontend Workspace 🚀
 
-This repository contains my frontend development projects as I progress toward becoming a Java Full Stack Developer.
+A collection of frontend projects built while learning modern web development.
 
 ## Projects
 
-### 1. Personal Portfolio
-- HTML5
-- CSS3
-- Bootstrap
-- Tailwind CSS
+### 📁 Portfolio
+- HTML
+- CSS
+- Responsive Design
+
+### 📁 E-Commerce Landing Page
+- HTML
+- CSS
 - JavaScript
 
-### 2. E-Commerce Landing Page
+### 📁 JavaScript Bootcamp
+- DOM
+- ES6+
+- Todo App
+- Calculator
+- Practice Programs
+
+### 📁 TypeScript Learning
+- Variables
+- Arrays
+- Objects
+- Functions
+- Interfaces
+- Type Aliases
+- Enums
+- Generics
+- Classes
+
+### 📁 React Learning
+- React + TypeScript
+- JSX
+- Components
+- Props
+- useState
+- Event Handling (In Progress)
+
+## Tech Stack
+
 - HTML5
 - CSS3
-- Bootstrap
-- Tailwind CSS
-- JavaScript
-
-## Technologies
-- HTML5
-- CSS3
-- Bootstrap
-- Tailwind CSS
-- JavaScript
-
-More frontend and React projects will be added as I continue learning.
+- JavaScript (ES6+)
+- TypeScript
+- React
+- Vite
