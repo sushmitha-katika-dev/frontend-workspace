@@ -2,4 +2,7 @@
     color: rgb(225, 65, 92);
     background-color: lightblue;
     font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
