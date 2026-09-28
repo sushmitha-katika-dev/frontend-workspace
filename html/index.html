@@ -7,18 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1><mark>Basic HTML Tags(h1->h6, p, br,hr,etc)</mark></h1>
+    <h1>Sushmitha Katika</h1>
+    <h2>Sushmitha Katika</h2>
+    <p>This is a paragraph.</p>
+    <br>
+    <h3>Sushmitha Katika</h3>
+    <h4>Sushmitha Katika</h4>
+    <h5>Sushmitha Katika</h5>
+    <h6>Sushmitha Katika</h6>
+    <hr>
+    <h1><mark>Formatting Tags</mark></h1>
     <pre>
         <b>Johny, Johny</b>
         (Yes, <u>papa</u>)
         <i>Eating sugar?</i>
-        (No, papa)
+        <strong>(No, papa)</strong>
         Telling lies?
         <mark>No, papa</mark>
         Open your mouth
         (Ah, ah, ah)
         <U>Johny, Johny</U>
         (Yes, papa)
-        Eating sugar?
+        <small>Eating sugar?</small>
         (No, papa)
         <sub>Telling</sub> lies?
         (No, papa)
@@ -31,14 +42,267 @@
     <hr>
     <marquee><img src="./Screenshot 2026-09-01 220942.png" alt="Image not found" width="600" height="300"></marquee>
     <h1>Dhurandhar song Baloch</h1>
+    <h1><mark>Image, audio, and video Tags</mark></h1>
     <img src = "https://images.news18.com/ibnlive/uploads/2025/12/dakait-1-2025-12-b5542046c940d0df7aa871989c615318.jpg" alt = "Image not found" width = "600" height = "300"><br>
     <hr>
     <audio controls src = "Dhurandhar Song Baloch - Sagar Kadam X VDJ LOVE.mp3"></audio>
     <hr>
     <iframe width="600" height="300" src="https://www.youtube.com/watch?v=Lb1pm04GUac" frameborder="0" allowfullscreen></iframe>
     <hr>
+    <h1><mark>Links</mark></h1>
     <a href = "https://www.youtube.com/watch?v=Lb1pm04GUac" target = "_blank">Click here to watch the video</a>
     <h2>Video 2</h2>
     <a href = "https://www.youtube.com/watch?v=mpe0nar4gRA" target = "_blank">Click here to watch the video</a>
+
+    <a href = "https://www.youtube.com/watch?v=MGgFEuL0Seg"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfn1jA9SQPVDsIULuGRUBJoVMdEjjJaL8tSrTHjtDwQ&s=10" alt = "Image not found" width = "250" height = "300"></a>
+
+    <br><br>
+    <a href = "https://www.youtube.com/watch?v=MGgFEuL0Seg" target = "_blank">
+        <button>Click Here</button>
+    </a>
+
+    <h1><mark>Tables</mark></h1>
+
+    <table  border>
+        <header>
+            <caption><b>Student Details</b></caption>
+        </header>
+        <tr>
+            <th>Student_id</th>
+            <th>Student_name</th>
+            <th>Student_Age</th>
+            <th>Student_Gender</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sushmitha</td>
+            <td>20</td>
+            <td>Female</td>
+        </tr>
+        <tr>    
+            <td>2</td>
+            <td>Rohit</td>
+            <td>21</td>
+            <td>Male</td>
+        </tr>
+    </table>
+    <br>
+    <table border>
+        <tr>
+            <th>Student_id</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th>Student_name</th>
+            <td>Sushmitha</td>
+            <td>Rohit</td>
+            <td>Priya</td>
+        </tr>
+        <tr>
+            <th>Student_Age</th>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <th>Student_Gender</th>
+            <td>Female</td>
+            <td>Male</td>
+            <td>Female</td>
+        </tr>
+    </table>
+
+    <br>
+    <h1><mark>Tables with colspan and rowspan</mark></h1>
+    <table  border = "1" cellspacing = "0" cellpadding = "10">
+        <header>
+            <caption><b>Student Details</b></caption>
+        </header>
+        <tr>
+            <th colspan = "2">FullName</th>
+            <th rowspan = "2">Age</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>Sushmitha</td>
+            <td>Gowda</td>
+            <td>20</td>
+        </tr>
+        <tr>    
+            <td>Rohit</td>
+            <td>Sharma</td>     
+            <td>21</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border>
+        <tr>
+            <th rowspan = 3>Full Name</th>
+            <td>Sushmitha</td>
+            <td>Reddy</td>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>Sharma</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Patel</td>
+        </tr>
+        <tr>
+            <th rowspan = 3>Rating</th>
+            <td colspan="2">5</td>
+        </tr>
+        <tr>
+            <td colspan="2">4</td>
+        </tr>
+        <tr>
+            <td colspan="2">3</td>
+        </tr>
+    </table>
+
+    <h1><mark>List -> (order,unorder,description)</mark></h1>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+    </ol>
+    <ol type = "A">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>      
+    </ol>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+    </ul>
+    <ul type = "circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+    </ul>
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML:</dt>
+        <dd>HTML is a markup language.</dd>
+        <dt>CSS:</dt>
+        <dd>CSS is a style sheet language.</dd>
+        <dt>JavaScript:</dt>
+        <dd>JavaScript is a programming language.</dd>
+        <dt>React:</dt>
+        <dd>React is a JavaScript library.</dd>
+    </dl>
+    
+    <h1><mark>Forms (text, checkbox, radio buttons, datalist)</mark></h1>
+    <forms action = "https://10000coders.in/">
+        <label>Name:</label>
+        <input type = text name = "name" placeholder = "Enter your name">
+        <br>
+        <br>
+        <label>Email:</label>
+        <input type = email name = "email" placeholder = "Enter your email">
+        <br>
+        <br>
+        <label for="skills">Skills:</label>
+        <br>
+        <br>
+        <label for="java">Java</label>
+        <input type = checkbox id = "java" />
+
+        <label for="python">Python</label>
+        <input type = checkbox id = "python" />
+
+        <label for="c">C</label>
+        <input type = checkbox id = "c" />
+
+        <label for ='javascript'>JavaScript</label>
+        <input type = checkbox id = "javascript" />
+
+        <label for="html">HTML</label>  
+        <input type = "checkbox" id = "html" />
+
+        <label for="css">CSS</label>
+        <input type = "checkbox" id = "css" />    
+        <br>
+        <br>
+        <label for="Gender">Gender:</label>
+        <br>
+
+        <label for="male">Male</label>
+        <input type = "radio" id = "male" name = "gender" value = "male">
+        
+        <label for="female">Female</label>    
+        <input type = "radio" id = "female" name = "gender" value = "female">
+          
+        <label for="other">Other</label>
+        <input type = "radio" id = "other" name = "gender" value = "other">
+        <br>
+        <br>
+        <label for="year">Year of graduation:</label>
+        <input id = "year" list = "years">
+        <datalist id = "years">
+            <option value = "2023">
+            <option value = "2024">
+            <option value = "2025">
+            <option value = "2026">
+        </datalist>
+        <br>
+        <br>
+        <button type = "submit">Submit</button>
+    </forms>
+    <h1><mark>Iframe</mark></h1>
+    <iframe src = "https://www.youtube.com/embed/Lb1pm04GUac" width = "600" height = "300" frameborder = "0" allowfullscreen></iframe>  
+
+    <h1><mark>Validation</mark></h1>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form action = "https://10000coders.in/" method = "post">
+            <label for="name">UserName:</label>
+            <input type = "text" id = "name" name = "name" pattern = "[a-zA-Z0-9]{8,15}" title = "Username must be 3-20 characters long and contain only letters and numbers" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type = "email" id = "email" name = "email" pattern = "[a-zA-Z0-9._%+-]+@[a-zA-Z]+\.[a-zA-Z]{2,}" title = "Please enter a valid email address" required>
+            <br>
+            <br>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type = "text" id = "phoneNumber" name = "phoneNumber" pattern = "[6-9]{1}[0-9]{9}" title = "Phone number must be 10 digits long" required>
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type = "password" id = "password" name = "password" pattern="{6,15}" required minlength = "6">
+            <br>
+            <br>
+            <button type = "submit">Submit</button>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Login Form</legend>
+        <form action = "https://10000coders.in/" method = "post">
+            <label for="username">UserName:</label>
+            <input type = "text" id = "username" name = "username" pattern = "[a-zA-Z0-9]{8,15}" title = "Username must be 3-20 characters long and contain only letters and numbers" required>
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type = "password" id = "password" name = "password" pattern="{6,15}" required minlength = "6">
+            <br>
+            <br>
+            <button type = "submit">Submit</button>
+        </form>
+    </fieldset>
+    
 </body>
 </html>
