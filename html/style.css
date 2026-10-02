@@ -4,3 +4,24 @@ h3 {
     font: 100;
     font-family: 'Arial', sans-serif;
 }
+h1{
+    background-color: rgb(191, 246, 152);
+    color: rgb(13, 111, 87);
+    border: 2px dotted rgb(15, 16, 15);
+    text-align: center;
+}
+.description {
+    font-family:'Courier New', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(146, 72, 235);
+}
+#spring-boot {
+    color: rgb(243, 153, 19);
+    text-align: center;
+
+}
+h1, .description {
+    font-family: 'Courier New', monospace;
+    color: rgb(107, 22, 90);
+}

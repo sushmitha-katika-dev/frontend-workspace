@@ -1,0 +1,34 @@
+div>h1{
+    background-color: #cee484;
+    color: #2b1002;
+}
+div>p{
+    color: #7d8104;
+}
+div span{
+    color: #4f0495;
+}
+p>span{
+    color: #049537;
+}
+ul >li{
+    color: #b1880b;
+}
+div li{
+    color: #982176;
+}
+div>h2{
+    color: #951704;
+}
+div>h3{
+    color: rgb(125, 125, 180);
+}
+
+div{
+    background-color: rgb(168, 197, 223);
+}
+h3{
+    background-color: rgb(141, 190, 233);
+    color: rgb(13, 13, 105);
+    font-size: 40px;
+}

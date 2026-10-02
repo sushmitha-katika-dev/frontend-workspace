@@ -1,0 +1,49 @@
+body{
+    background-color: #2f945d;
+}
+h1{
+    font-size: 50px;
+    font-family: 'cursive';
+    color: rgb(3, 82, 106);
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: 'cursive';
+    color: rgb(88, 5, 49);
+}
+.registration-form {
+    background-color: #6faa61;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+}
+button {
+    background-color: #b5f9b7;
+    color: rgb(226, 178, 178);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sub-title {
+    color:  rgb(32, 3, 94);
+    font-family: 'cursive';
+    border: 2px dotted rgb(32, 3, 94);
+}
+#contact-title {
+    color: rgb(32, 3, 94);
+    font-family: 'cursive';
+    border: 2px dotted rgb(32, 3, 94);  
+}
+#skills-title {
+    color:  rgb(32, 3, 94);
+    font-family: 'cursive';
+    border: 2px dotted rgb(32, 3, 94);
+}
+#skills-list {     
+    list-style-type: square;
+    padding-left: 20px;
+    color: rgb(88, 5, 49);
+}
