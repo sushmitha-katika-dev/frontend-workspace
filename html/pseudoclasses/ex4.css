@@ -1,0 +1,22 @@
+p::first-line{
+    color: rgb(72, 177, 46);
+    font-weight: bold;
+    font-size:30px;
+    background-color: rgb(180, 244, 180);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1::before{
+    content: "{ ";
+    color: rgb(72, 177, 46);
+    font-weight: bold;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1::after{
+    content: " }";
+    color: rgb(72, 177, 46);
+    font-weight: bold;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+}

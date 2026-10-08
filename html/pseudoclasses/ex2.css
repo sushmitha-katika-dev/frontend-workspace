@@ -1,0 +1,60 @@
+/*li:first-child{
+    font-weight: bold;
+    color: blue;
+    background-color: yellow;
+}
+
+li:last-child{
+    font-weight: bold;
+    color: green;
+    background-color: lightgreen;
+}
+
+li:nth-child(3){
+    font-weight: bold;
+    color: red;
+    background-color: lightblue;
+}
+*/
+/*
+li:first-child, li:last-child{
+    font-weight: bold;
+    color: blue;
+    background-color: yellow;
+}*/
+/*
+li:nth-child(2n){
+    font-weight: bold;
+    color: red;
+    background-color: lightblue;
+}
+*/
+/*li:nth-child(2n+1){
+    font-weight: bold;
+    color:brown;
+    background-color: rgb(237, 237, 155);
+}
+li:nth-child(even){
+    font-weight: bold;
+    color: green;
+    background-color: lightgreen;
+}
+    */
+/* from 3 */
+li:nth-child(n+3){
+    font-weight: bold;
+    color: purple;
+    background-color: lightgray;
+}
+/* before 3 */
+li:nth-child(-n+3){
+    font-weight: bold;
+    color: orange;
+    background-color: lightyellow;
+}
+/* 3 to 5 */
+li:nth-child(n+3):nth-child(-n+5){
+    font-weight: bold;
+    color: red;
+    background-color: lightblue;
+}

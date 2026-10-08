@@ -1,3 +1,22 @@
 h3, .java{
     color: rgb(225, 121, 204);
 }
+
+input[type]{
+    border: 2px solid rgb(246, 8, 8);
+}
+input[type="text"]{
+    border: 2px solid rgb(8, 246, 8);
+}
+input[name^="user"]{
+    border: 2px solid rgb(8, 8, 246);
+}
+input[name$="city"]{
+    border: 2px solid rgb(246, 246, 8);
+}
+input[name*="name"]{
+    border: 2px solid rgb(246, 8, 246);
+}
+input[placeholder*="email"]{
+    border: 2px solid rgb(8, 246, 246);
+}
